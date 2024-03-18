@@ -1,0 +1,12 @@
+.main_nav {
+    background-color: #0a2e1f;
+    color: white;
+}
+
+.sub_nav {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav_toggle {
+    box-shadow: none !important;
+}

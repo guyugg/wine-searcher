@@ -1,0 +1,21 @@
+.slider-title {
+    margin-bottom: 2rem !important;
+}
+
+.slider-ticks {
+    display: flex;
+    margin-top: 20px;
+    width: 110%;
+}
+
+.slider-tick {
+    flex: 1;
+    text-align: left;
+    font-size: 10px;
+}
+
+.slider-tick-tail {
+    flex: 1;
+    text-align: right;
+    font-size: 10px;
+}

@@ -1,0 +1,48 @@
+.title-section {
+    border-top: 3px solid rgb(245, 242, 240);
+    border-bottom: 3px solid rgb(245, 242, 240);
+    padding: 10px;
+}
+
+.title-section a {
+    color: green !important;
+}
+
+.content-section {
+    background-color: rgb(254, 248, 245);
+    padding: 1rem;
+}
+
+.filter-section {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+}
+
+.filter-button-group {
+    width: 100%;
+    max-width: 400px;
+}
+
+.filter-button-group .btn {
+    border-radius: 0.5rem;
+    height: 50%;
+}
+
+.filter-button {
+    box-shadow: none !important;
+}
+
+.filter-button:hover {
+    background-color: rgb(20,78,51) !important;
+}
+
+@media (max-width: 576px) {
+    .type-section {
+        font-size: 10px;
+    }
+    .type-icon {
+        width: 20px;
+        height: 20px;
+    }
+};

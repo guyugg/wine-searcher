@@ -1,0 +1,14 @@
+.home-section {
+    background-image: url("https://www.wine-searcher.com/images/homepage-bg.jpg?width=1441&height=640&fit=crop") !important;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+.home-content {
+    background-color: rgb(254, 248, 245);
+}
