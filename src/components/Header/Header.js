@@ -3,9 +3,9 @@ import { useLocation } from 'react-router-dom';
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { FaBars, FaUser } from 'react-icons/fa';
 import SearchBar from "../SearchBar/SearchBar";
-import "./MainNav.css";
+import "./Header.css";
 
-function MainNav() {
+function Header() {
     const location = useLocation();
     const isHomePath = location.pathname === "/";
     const searchBarClass = "d-flex d-none d-md-block mx-5 z-1" + (isHomePath ? " invisible" : " visible");
@@ -87,4 +87,4 @@ function MainNav() {
     )
 }
 
-export default MainNav;
+export default Header;
