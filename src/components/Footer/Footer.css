@@ -33,12 +33,17 @@
     width: 0.25rem;
 }
 
-#winesortlist table a, .legal-footer__link, .legal-footer__link:visited, .popover-body a, .text-link-a a, .text-link-a a:visited, .text-link-b a, .text-link-c a, .text-link-d a, .text-link-d a:visited, .text-link-primary, .text-link-primary a:visited, .text-link-primary:visited, a.text-link-a, a.text-link-a:visited, a.text-link-b, a.text-link-c, a.text-link-d, a.text-link-d:visited {
-    color: #1d8156;
+.legal-footer__link:hover, .legal-footer__link:visited {
+    text-decoration: underline;
 }
+
 .legal-footer__link {
+    color: #1d8156;
+    font-size: 1rem;
     font-weight: 600;
+    text-decoration: none;
 }
+
 .legal-footer__li {
     color: #1d8156;
     display: inline-block;
