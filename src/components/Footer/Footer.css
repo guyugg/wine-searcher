@@ -1,0 +1,91 @@
+.footer {
+    background-color: #0a2e1f;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.page-footer__ul {
+    list-style-type: none;
+    margin-top: 4rem;
+}
+
+.page-footer__sub_ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.page-footer_content {
+    border-bottom: 1px solid #e0e0e0 !important;
+    padding-bottom: 1.5rem;
+}
+
+.legal-footer__li {
+    color: #1d8156;
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+.legal-footer__li:not(:last-child):after {
+    content: "|";
+    display: inline-block;
+    padding-left: 0.5rem;
+    text-align: center;
+    width: 0.25rem;
+}
+
+#winesortlist table a, .legal-footer__link, .legal-footer__link:visited, .popover-body a, .text-link-a a, .text-link-a a:visited, .text-link-b a, .text-link-c a, .text-link-d a, .text-link-d a:visited, .text-link-primary, .text-link-primary a:visited, .text-link-primary:visited, a.text-link-a, a.text-link-a:visited, a.text-link-b, a.text-link-c, a.text-link-d, a.text-link-d:visited {
+    color: #1d8156;
+}
+.legal-footer__link {
+    font-weight: 600;
+}
+.legal-footer__li {
+    color: #1d8156;
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 1230px) {
+    .page-footer_content .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+    }
+    .card-columns .card {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.card-columns .card {
+    position: relative;
+}
+
+.card-columns .card {
+    margin-bottom: 0.75rem;
+}
+
+.page-footer__link:hover, .page-footer__link:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+.page-footer__link {
+    color: #000;
+    display: inline-block;
+    font-size: .875rem;
+    text-decoration: none;
+}
