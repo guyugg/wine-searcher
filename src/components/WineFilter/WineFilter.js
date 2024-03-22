@@ -8,7 +8,7 @@ function WineFilter() {
     const [radioValue, setRadioValue] = useState('0');
 
     return (
-        <Container className="filter-section">
+        <Container className="filter-section mb-3">
             <TypeButtonGroup radioValue={radioValue} setRadioValue={setRadioValue} />
             <Container className="d-flex flex-lg-row flex-column">
                 <TypeSection typeIdx={radioValue} />
