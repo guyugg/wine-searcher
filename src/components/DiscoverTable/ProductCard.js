@@ -12,12 +12,18 @@ function ProductCard() {
         shopName: "Wein.Depot Noitz",
         price: "2,590.97NT$",
         volume: "Bottle (750ml)"
-    }
+    };
+    const toProduct = () => {};
+    const toShop = () => {};
 
     return (
-        <Row className="mb-3 bg-white border rounded">
-            <Col lg={9}>
-                <Row xs={2} className="text-start product-border p-3">
+        <Row className="product mb-3 bg-white rounded">
+            <Col
+                lg={9}
+                className="product-border radius1"
+                onClick={toProduct}
+            >
+                <Row xs={2} className="text-start p-3">
                     <Col xs={3} className="d-flex justify-content-center align-items-center border rounded">
                         <Container className="d-flex justify-content-center align-items-center h-100">
                             <Image src={data.imgSrc} />
@@ -41,7 +47,11 @@ function ProductCard() {
                     </Col>
                 </Row>
             </Col>
-            <Col lg={3} className="text-end d-flex flex-column justify-content-evenly p-3">
+            <Col
+                lg={3}
+                className="product-border radius2 text-end d-flex flex-column justify-content-evenly p-3"
+                onClick={toShop}
+            >
                 <div className="fw-bold fs-6 mb-1">{data.shopName}</div>
                 <div className="product-text mb-1">{data.price}</div>
                 <div className="product-text mb-1">ex. sales tax</div>

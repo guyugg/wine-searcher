@@ -7,14 +7,29 @@
     font-size: 0.8rem !important;
 }
 
+.product-border {
+    border: 1px solid;
+    border-color: #dee2e6;
+}
+
+.product-border:hover {
+    border-color: #1d8156;
+}
+
 @media (max-width: 990px) {
-    .product-border {
-        border-bottom: 1px solid #dee2e6;;
+    .product .radius1  {
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+    .product .radius2  {
+        border-radius: 0 0 0.25rem 0.25rem;
     }
 }
 
 @media (min-width: 992px) {
-    .product-border {
-        border-right: 1px solid #dee2e6;;
+    .product .radius1  {
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+    .product .radius2  {
+        border-radius: 0 0.25rem 0.25rem 0;
     }
 }
