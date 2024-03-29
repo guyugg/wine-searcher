@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Breadcrumb, Row, Col } from "react-bootstrap";
 import WineFilter from "../../components/WineFilter/WineFilter";
 import DiscoverFilter from "../../components/DiscoverFilter/DiscoverFilter";
+import DiscoverTable from "../../components/DiscoverTable/DiscoverTable";
 import "./Discover.css"
 
 function TitleSection() {
@@ -43,8 +44,8 @@ function ContentSection2() {
           </Container>
         </Col>
         <Col md={8} lg={9} className="ps-0 ps-md-2 pe-0">
-          <Container className="filter-section">
-            商品列表
+          <Container className="">
+            <DiscoverTable />
           </Container>
         </Col>
       </Row>
